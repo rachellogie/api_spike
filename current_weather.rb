@@ -12,3 +12,4 @@ temperature = JSON.parse(json_data)["main"]["temp"].to_i
 temperature = (1.8 * (temperature - 273.15) + 32).round(2)
 
 puts "Denver is #{temperature} degrees fahrenheit and #{weather_description}"
+
